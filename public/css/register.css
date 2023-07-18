@@ -1,0 +1,56 @@
+@media screen and (min-width:320px) {
+     body{
+        background-image: none;
+        background-color:white;
+    }
+    footer{
+        color: black;
+    }
+    .login-heading{
+        color: black;
+        text-shadow: none;
+    }
+    .login-paragraph{
+        color: black;
+        text-shadow: none;
+    }
+}
+@media screen and (min-width:620px) {
+     body{
+        background-image: url('../img/remote work.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    footer{
+        color: white;
+    }
+    .login-heading{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+    .login-paragraph{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+@media screen and (min-width:1224px) {
+     body{
+        background-image: url('../img/remote work.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    footer{
+        color: white;
+    }
+    .login-heading{
+        color: white;
+    }
+    .login-paragraph{
+        color: white;
+    }
+    .card-body{
+        background-color: whitesmoke;
+    }
+}

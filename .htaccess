@@ -1,0 +1,17 @@
+
+<Files .env>
+    order allow,deny
+    Deny from all
+</Files>
+<Directory "/storage/app/public/uploads">
+LimitRequestBody 2147483647  
+</Directory>
+DirectoryIndex server.php index.html index.php
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ server.php [L]
+
+

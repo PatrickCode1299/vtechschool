@@ -1,0 +1,425 @@
+@media (min-width: 991.98px) {
+main {
+padding-left: 240px;
+}
+}
+@media screen and (min-width:320px) {
+
+/* Sidebar */
+.sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+background-color: #fff;
+color: black;
+padding: 58px 0 0; /* Height of navbar */
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+width: 240px;
+z-index: 600;
+}
+.tutor-list-profile > .list-group-item{
+background-color: none;
+}
+@media (max-width: 991.98px) {
+.sidebar {
+width: 100%;
+}
+}
+.sidebar .active {
+border-radius: 5px;
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+position: relative;
+top: 0;
+height: calc(100vh - 48px);
+padding-top: 0.5rem;
+overflow-x: hidden;
+overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.side-nav-logo-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main-content{
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+margin-top: 80px;
+}
+.main-content > .instructor-view{
+	margin: 0px auto;
+	width: 100%;
+	border: none;
+
+	
+}
+.card-head-tutor{
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.card-head-tutor > div{
+	flex-basis: 2;
+	margin-left: auto;
+}
+.tutor-heading{
+	font-weight: bold;
+}
+.some-info{
+	margin-top:;
+	margin-bottom: 50px;
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.some-info > div{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 150px;
+	margin-left: 40px;
+}
+.card-short-details{
+	border: none;
+}
+.education-info{
+	width: 100%;
+	margin:0px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+}
+.flex-div-edu-info{
+	background-color: white;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+}
+.education-info-bg{
+	width: 70%;
+	margin:0px auto;
+}
+.card-edu-info{
+	margin-left: 30px;
+}
+.card-edu-info > h2{
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+.card-edu-info > *{
+	padding-left: 20px;
+}
+.avatar{
+	border-radius: 50%;
+	width: 100px;
+	margtin-top: 20px;
+}
+.create-description{
+	height: 200px;
+}
+}
+@media screen and (min-width:620px) {
+
+/* Sidebar */
+.sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+background-color: #fff;
+color: black;
+padding: 58px 0 0; /* Height of navbar */
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+width: 240px;
+z-index: 600;
+}
+.tutor-list-profile > .list-group-item{
+background-color: none;
+}
+@media (max-width: 991.98px) {
+.sidebar {
+width: 100%;
+}
+}
+.sidebar .active {
+border-radius: 5px;
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+position: relative;
+top: 0;
+height: calc(100vh - 48px);
+padding-top: 0.5rem;
+overflow-x: hidden;
+overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.side-nav-logo-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main-content{
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+margin-top: 80px;
+}
+.main-content > .instructor-view{
+	margin: 0px auto;
+	width: 70%;
+	border: none;
+
+	
+}
+.card-head-tutor{
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.card-head-tutor > div{
+	flex-basis: 2;
+	margin-left: auto;
+}
+.tutor-heading{
+	font-weight: bold;
+}
+.some-info{
+	margin-top:;
+	margin-bottom: 50px;
+	width: 70%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.some-info > div{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100px;
+	margin-left: 40px;
+}
+.card-short-details{
+	border: none;
+}
+.education-info{
+	width: 70%;
+	margin:0px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+}
+.flex-div-edu-info{
+	background-color: white;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+}
+.education-info-bg{
+	width: 70%;
+	margin:0px auto;
+}
+.card-edu-info{
+	margin-left: 30px;
+}
+.card-edu-info > h2{
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+.card-edu-info > *{
+	padding-left: 20px;
+}
+.avatar{
+	border-radius: 50%;
+	width: 100px;
+	margtin-top: 20px;
+}
+.create-description{
+	height: 200px;
+}
+}
+@media screen and (min-width:1224px) {
+
+/* Sidebar */
+.sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+background-color: #fff;
+color: black;
+padding: 58px 0 0; /* Height of navbar */
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+width: 240px;
+z-index: 600;
+}
+.tutor-list-profile > .list-group-item{
+background-color: none;
+}
+@media (max-width: 991.98px) {
+.sidebar {
+width: 100%;
+}
+}
+.sidebar .active {
+border-radius: 5px;
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+position: relative;
+top: 0;
+height: calc(100vh - 48px);
+padding-top: 0.5rem;
+overflow-x: hidden;
+overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.side-nav-logo-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main-content{
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+margin-bottom: 50px;
+margin-top: 80px;
+}
+.main-content > .instructor-view{
+	margin: 0px auto;
+	width: 70%;
+	border: none;
+
+	
+}
+.card-head-tutor{
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.card-head-tutor > div{
+	flex-basis: 2;
+	margin-left: auto;
+}
+.tutor-heading{
+	font-weight: bold;
+}
+.some-info{
+	margin-top:;
+	margin-bottom: 50px;
+	width: 70%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.some-info > div{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100px;
+	margin-left: 40px;
+}
+.card-short-details{
+	border: none;
+}
+.education-info{
+	width: 70%;
+	margin:0px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+
+}
+.flex-div-edu-info{
+	background-color: white;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+}
+.education-info-bg{
+	width: 70%;
+	margin:0px auto;
+}
+.card-edu-info{
+	margin-left: 30px;
+}
+.card-edu-info > h2{
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+.card-edu-info > *{
+	padding-left: 20px;
+}
+.avatar{
+	border-radius: 50%;
+	width: 100px;
+	margtin-top: 20px;
+}
+.create-description{
+	height: 200px;
+}
+}
